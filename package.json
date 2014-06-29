@@ -1,7 +1,7 @@
 {
   "name": "antisocial",
   "version": "0.1.0",
-  "description": "Decentralized, public key private messaging",
+  "description": "Decentralized private messaging",
   "private": true,
   "engines": {
     "node": "~0.10.x",
@@ -14,8 +14,7 @@
     "hapi": "~6.0.2",
     "nconf": "~0.6.7",
     "jade": "~1.3.1",
-    "joi": "~4.6.1",
-    "level-threaded-chat": "~2.0.x"
+    "joi": "~4.6.1"
   },
   "devDependencies": {
     "nodemon": "~1.0.17"
