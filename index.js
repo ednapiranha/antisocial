@@ -42,6 +42,18 @@ var routes = [
 
 server.route(routes);
 
+server.route({
+  path: "/{path*}",
+  method: "GET",
+  handler: {
+    directory: {
+      path: "./public",
+      listing: false,
+      index: false
+    }
+  }
+});
+
 server.start();
 
 function getMessages(request, reply) {
